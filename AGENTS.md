@@ -1,42 +1,38 @@
 # Repository guidelines
 
-This repository is a curated list of ATS Mini projects and resources.
+Maintain a curated list of ATS Mini projects and resources in README.md.
 
-## Editing the list
+## Entries
 
-- Keep entries in the appropriate README.md section.
-- Sort entries alphabetically by author, callsign or organisation,
-  ignoring case. Sort projects by name when the author is the same.
-- Use this format:
-  - [Project name (author)](URL) - Short description.
-- Preserve established project names and author spelling.
-- Limit descriptions to two short sentences.
-- Focus on distinguishing features rather than promotional claims.
-- Mention hardware requirements or experimental limitations when
-  they affect whether someone can use the project.
-- Preserve existing entries unless removal or correction is requested.
+- Use the appropriate section and sort by author/callsign/organisation,
+  then project name, ignoring case.
+- Format: `[Project name (author)](URL) - Description.`
+- Preserve established names. Describe distinguishing features in at
+  most two short sentences, including relevant hardware requirements
+  and experimental limitations.
+- Append unlinked Shields.io badges as HTML `<img>` tags with descriptive
+  `alt` text and `height="16"` (default baseline alignment): grey
+  `closed source` when confirmed,
+  blue `updated YYYY-MM-DD` when known.
 
-## Research
+## Verification
 
-- Verify claims against project documentation, release notes or source.
-- Distinguish implemented features from planned features.
-- Check archives and download folders before concluding that source
-  code is unavailable.
-- Do not equate a missing licence with closed source.
-- Use the following badge immediately after the project link when
-  closed-source status is established:
-  ![Closed source](https://img.shields.io/badge/closed%20source-grey)
-- If source availability is uncertain, report that uncertainty rather
-  than assigning a definitive badge.
-- Avoid version numbers, star counts and other rapidly changing
-  details unless they are necessary to explain compatibility.
+- Check claims against project documentation, release notes or source;
+  distinguish implemented features from plans.
+- Check archives and download folders before classifying firmware as
+  closed source. A missing licence or source you cannot find is not
+  sufficient evidence.
+- Date badges use the latest commit on the linked GitHub branch
+  (default branch unless specified), or the latest documented firmware
+  update, including development versions.
+- Avoid volatile details such as versions and star counts unless
+  needed for compatibility; update-date badges are an exception.
 
-## Scope and validation
+## Changes
 
-- Keep changes focused on the requested additions or corrections.
-- Do not add unchanged forks or duplicate download mirrors as
-  separate projects without a clear reason.
-- Preserve existing URLs unless a replacement has been verified.
-- Run `git diff --check` after editing.
-- Check alphabetical ordering, duplicate entries and Markdown syntax.
-- No build or automated test suite is needed for list-only changes.
+- Keep edits within the requested scope; preserve existing entries
+  and URLs unless a correction or replacement is justified.
+- Include forks and mirrors separately only when they offer something
+  distinct.
+- Check ordering, duplicates and Markdown syntax, then run
+  `git diff --check`.
