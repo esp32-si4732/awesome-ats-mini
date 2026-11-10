@@ -11,9 +11,10 @@ Maintain a curated list of ATS Mini projects and resources in README.md.
   most two short sentences, including relevant hardware requirements
   and experimental limitations.
 - Append unlinked Shields.io badges as HTML `<img>` tags with descriptive
-  `alt` text and `height="16"` (default baseline alignment): grey
+  `alt` text and `height="16"` (default baseline alignment): yellow
   `closed source` when confirmed, orange `paid` when purchase is required,
-  and blue `updated YYYY-MM-DD` when known.
+  and `updated YYYY-MM-DD` when known (green for dates within the last four
+  calendar months, including the cutoff date; blue for older dates).
 
 ## Verification
 
