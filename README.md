@@ -1,5 +1,7 @@
 # A list of awesome projects for ATS Mini
 
+**Maintainers wanted:** This project is looking for maintainers to help keep the list accurate and up to date. If you’re interested, please open an issue.
+
 ## Firmware
 
 - [ATS Mini Chinese Firmware (Adam1315138)](https://github.com/Adam1315138/ats-mini-zh) - Adds Simplified Chinese menus, remapped button gestures, station-seeking controls and scrolling station names. Includes RDS station-name handling and display-layout fixes, tested on Sunnygold N16R8 hardware. <img src="https://img.shields.io/badge/updated-2026--11--04-green" alt="Updated 2026-11-04" height="16">
